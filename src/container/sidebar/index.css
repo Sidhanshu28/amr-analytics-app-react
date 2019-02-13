@@ -1,0 +1,17 @@
+.sidebar{
+    height:100vh;
+    background:lightgray;
+    /* border-right: 2px solid lightgray; */
+    max-width: 4%;
+    text-align: right;
+    transition : all 500ms ease;
+}
+
+.sidebar-expanded{
+    max-width:30%;
+}
+
+.sidebar-menu-icon{
+    font-size:1.8rem;
+    cursor: pointer;
+}

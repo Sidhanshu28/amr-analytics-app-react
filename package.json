@@ -1,0 +1,53 @@
+{
+  "name": "demo-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@dhis2/ui": "^1.0.0-beta.9",
+    "dhis2-header-vue": "^1.1.8",
+    "highcharts-react-official": "^2.0.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-scripts": "2.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "peerDepedencies": {
+    "highcharts": ">=5.0.0",
+    "react": ">=16.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "8.0.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-tape-runner": "^2.0.1",
+    "babelify": "^7.3.0",
+    "browserify": "^14.3.0",
+    "extend-tape": "^1.2.0",
+    "highcharts": "^6.2.0",
+    "react": "^16.4.0",
+    "react-addons-test-utils": "^15.6.2",
+    "react-dom": "^16.4.0",
+    "react-test-renderer": "^16.4.0",
+    "react-unit": "^3.0.0",
+    "standard": "^10.0.2",
+    "standard-version": "^4.4.0",
+    "tape": "^4.9.1",
+    "tape-run": "^3.0.0",
+    "webpack": "4.19.1"
+  }
+}
