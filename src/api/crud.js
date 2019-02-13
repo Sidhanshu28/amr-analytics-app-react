@@ -21,6 +21,7 @@ export function setBaseUrl(url) {
  * @returns Server response.
  */
 export async function get(endpoint) {
+    console.log(baseUrl + endpoint)
     const response = await fetch(baseUrl + endpoint, {
         method: 'GET',
         credentials: 'include',

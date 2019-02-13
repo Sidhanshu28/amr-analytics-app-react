@@ -4,7 +4,7 @@ import AppHeader from './appHeader/index'
 import Container from './container/index'
 
 
-class App extends Component {
+export class App extends Component {
   render() {
     return (
       <div>
@@ -16,4 +16,3 @@ class App extends Component {
   }
 }
 
-export default App;
