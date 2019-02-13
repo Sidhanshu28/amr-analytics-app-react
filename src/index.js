@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom'
 import * as serviceWorker from './serviceWorker'
 import { App } from './App'
 import { setBaseUrl } from './api/crud'
+import './index.css'
 //import { setAmrProgram } from './api/api'
 
 const developmentServer = 'https://amrtest.icmr.org.in/amr'
